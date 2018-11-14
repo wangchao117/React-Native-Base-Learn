@@ -1,85 +1,46 @@
 import React, { Component } from 'react';
 import {
+  Image, 
+  StyleSheet, 
+  Text, 
   View,
-  Text,
-  TextInput,
-  Button,
-  Alert,
-  TouchableHighlight, 
-  TouchableOpacity, 
-  TouchableNativeFeedback, 
-  TouchableWithoutFeedback,
-  Platform,
   ScrollView,
 } from 'react-native';
+// 模拟数据
+var MOCKED_MOVIES_DATA = [
+  {
+    title: "标题",
+    year: "2015",
+    posters: { thumbnail: "http://i.imgur.com/UePbdph.jpg" }
+  }
+];
 
-export default class FlexDimensionsBasics extends Component {
+export default class moves extends Component {
   constructor(props) {
     super(props);
-    this.state = { text: '' };
+    this.state = {  };
   }
   render() {
+    var movie = MOCKED_MOVIES_DATA[0];
     return (
-      <ScrollView >
-        <TextInput
-          style={{ height: 40 }}
-          placeholder="Type here to translate!"
-          onChangeText={(text) => this.setState({ text })}
-        />
-        <Text>{this.state.text}</Text>
-        <Button
-          onPress={this.clickBtn}
-          title="点我！"
-        />
-
-        
-        <TouchableHighlight onPress={this.clickBtn} underlayColor="white">
-          <View style={{height: 40,backgroundColor:'red'}}>
-            <Text>TouchableHighlight</Text>
-          </View>
-        </TouchableHighlight>
-
-         <TouchableOpacity onPress={this.clickBtn} underlayColor="white">
-          <View style={{height: 40,backgroundColor:'blue'}}>
-            <Text>TouchableOpacity</Text>
-          </View>
-        </TouchableOpacity>
-
-        <TouchableNativeFeedback 
-          onPress={this.clickBtn} 
-          underlayColor="white"
-          background={Platform.OS === 'android' ? TouchableNativeFeedback.SelectableBackground() : ''}
-        >
-          <View style={{height: 40,backgroundColor:'#777'}}>
-            <Text>TouchableNativeFeedback</Text>
-          </View>
-        </TouchableNativeFeedback>
-
-        <TouchableWithoutFeedback onPress={this.clickBtn} underlayColor="white">
-          <View style={{height: 40,backgroundColor:'#ccc'}}>
-            <Text>TouchableWithoutFeedback</Text>
-          </View>
-        </TouchableWithoutFeedback>
-        
-        <TouchableHighlight onPress={this.clickBtn} onLongPress={this._onLongPressButton} underlayColor="white" underlayColor="white">
-          <View style={{height: 1440,backgroundColor:'#e2e2e2'}}>
-            <Text>TouchableHighlight</Text>
-          </View>
-        </TouchableHighlight>
-
-        
-        
-        {/* 滚动 */}
-        
-
-
-      </ScrollView>
+      <View style={styles.container}>
+        <Text>{movie.title}</Text>
+        <Text>{movie.year}</Text>
+        <Image style={styles.thumbnail} source={{uri: movie.posters.thumbnail}} />
+      </View>
     );
   }
-  clickBtn() {
-    Alert.alert(Platform.OS)
-  }
-  _onLongPressButton() {
-    Alert.alert('You long-pressed the button!')
-  }
+  
 }
+var styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "#F5FCFF"
+  },
+  thumbnail: {
+    width: 53,
+    height: 81
+  }
+});

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/chaowang/Desktop/coding/MyFirstIpa/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-da/values-da.xml",
+            "outputFile": "/Volumes/MyFiles/Coding/MyGit/React-Native-Base-Learn/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-da/values-da.xml",
             "map": [
                 {
                     "source": "/Users/chaowang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/51fd415c74c8860ac70d34cf28160c59/res/values-da/values-da.xml",
