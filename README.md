@@ -7,10 +7,15 @@
 * FlatList列表必须要加keyExtractor参数，不然会报黄色警告：keyExtractor={(item, index) => index.toString()}
 
 ### 组件系统
+
 #### 基础组件
 * View：搭建用户界面的最基础组件。
+    注：View 的设计初衷是和 StyleSheet 搭配使用，这样可以使代码更清晰并且获得更高的性能。尽管内联样式也同样可以使用。
 * Text：显示文本内容的组件。
 * Image：显示图片内容的组件。
 * TextInput：文本输入框。
 * ScrollView：可滚动的容器视图。
 * StyleSheet：提供类似CSS样式表的样式抽象层。
+#### 交互组件
+
+
