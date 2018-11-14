@@ -12,7 +12,9 @@
 * View：搭建用户界面的最基础组件。
     注：View 的设计初衷是和 StyleSheet 搭配使用，这样可以使代码更清晰并且获得更高的性能。尽管内联样式也同样可以使用。
 * Text：显示文本内容的组件。
-    注意：onChangeText是从TextInput里取值这就是目前唯一的做法！也就是使用在onChangeText中用setState把用户的输入写入到state中，然后在需要取值的地方从this.state中取出值。
+* Image：显示图片内容的组件。
+* TextInput：文本输入框。
+注意：onChangeText是从TextInput里取值这就是目前唯一的做法！也就是使用在onChangeText中用setState把用户的输入写入到state中，然后在需要取值的地方从this.state中取出值。
     例如：
 ```
     import React, { Component } from 'react';
@@ -85,10 +87,9 @@
 >   TextInput在安卓上默认有一个底边框，同时会有一些padding。如果要想使其看起来和iOS上尽量一致，
     则需要设置padding: 0，同时设置underlineColorAndroid="transparent"来去掉底边框。
 >   又，在安卓上如果设置multiline = {true}，文本默认会垂直居中，可设置textAlignVertical: 'top'样式来使其居顶显示。
->   又又，在安卓上长按选择文本会导致windowSoftInputMode设置变为adjustResize，这样可能导致绝对定位的元素被键盘给顶起来。要解决这一问题你需要在AndroidManifest.xml中明确指定合适的windowSoftInputMode( https://developer.android.com/guide/topics/manifest/activity-element.html )值，或是自己监听事件来处理布局变化。
+>   又又，在安卓上长按选择文本会导致windowSoftInputMode设置变为adjustResize，这样可能导致绝对定位的元素被键盘给顶起来。
+    要解决这一问题你需要在AndroidManifest.xml中明确指定合适的windowSoftInputMode( https://developer.android.com/guide/topics/manifest/activity-element.html )值，或是自己监听事件来处理布局变化。
 
-* Image：显示图片内容的组件。
-* TextInput：文本输入框。
 * ScrollView：可滚动的容器视图。
 * StyleSheet：提供类似CSS样式表的样式抽象层。
 #### 交互组件
