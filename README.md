@@ -182,13 +182,13 @@
     onValueChange:某一项被选中时执行此回调。调用时带有如下参数：
 >       itemValue: 被选中项的value属性
 >       itemPosition: 被选中项在picker中的索引位置
-
+         
     selectedValue: 默认选中的值。可以是字符串或整数
     enabled(Android): 如果设为false，则会禁用此选择器。
     mode(Android): 在Android上，可以指定在用户点击选择器时，以怎样的形式呈现选项：
 >       'dialog': 显示一个模态对话框。默认选项。
 >       'dropdown': 以选择器所在位置为锚点展开一个下拉框。
-
+                    
     prompt(Android): 设置选择器的提示字符串。在Android的对话框模式中用作对话框的标题。
     itemStyle（iOS）：指定应用在每项标签上的样式。
 
