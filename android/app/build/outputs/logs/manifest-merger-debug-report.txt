@@ -1,0 +1,153 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [com.facebook.react:react-native:0.57.4] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/c4f910645bd7cc0dcd59e82d2c8b2e47/AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/51fd415c74c8860ac70d34cf28160c59/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/da739550a496ff2698c800463e45f990/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/d52a05edcf643a5f93893f61def323f2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/4fa52472fc4ccbf7aee27ab46553aa2d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/403a2db7223bd40e0644820d2790d1f8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/30d08c5ab9cd7e53ff5b698f94b56222/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/b034890e5fcba685172c42d44b667b6a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/a25d1beea3ce7109c97c8a67ef0f5b7a/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/5fc72fb43c978d777745a8c6ae75294d/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/32f6a4c80ee1cfadba00dc8a00368c62/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/aff4beb21c3242b24bb96152b2d14a4e/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/5f3b0a23cd654ac141a58e8dd1eb8198/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/a36d1f0d3388eb5a8a043b93eadfc746/AndroidManifest.xml:2:1-13:12
+MERGED from [org.webkit:android-jsc:r174650] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/068294ede4dd4103b4c9ec754c3084fd/AndroidManifest.xml:1:1-3:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/455e409b96cc266f0994fba9d396e86e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/7c699517e860008ab0add178a176e28e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/35db762366b25e91e4d778b5f8654746/AndroidManifest.xml:2:1-9:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/5b9a3769d2e85a5ce21ebf8524e2cdbf/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/04367a87010fa98a5990728e29200a52/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml:1:1-26:12
+	package
+		ADDED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml:2:5-29
+		INJECTED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml:5:5-77
+MERGED from [com.facebook.react:react-native:0.57.4] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/c4f910645bd7cc0dcd59e82d2c8b2e47/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.57.4] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/c4f910645bd7cc0dcd59e82d2c8b2e47/AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml:5:22-75
+application
+ADDED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml:7:5-24:19
+MERGED from [com.facebook.react:react-native:0.57.4] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/c4f910645bd7cc0dcd59e82d2c8b2e47/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.57.4] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/c4f910645bd7cc0dcd59e82d2c8b2e47/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/a36d1f0d3388eb5a8a043b93eadfc746/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/a36d1f0d3388eb5a8a043b93eadfc746/AndroidManifest.xml:11:5-20
+MERGED from [org.webkit:android-jsc:r174650] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/068294ede4dd4103b4c9ec754c3084fd/AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/068294ede4dd4103b4c9ec754c3084fd/AndroidManifest.xml:2:3-17
+	android:label
+		ADDED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml:9:7-39
+	android:icon
+		ADDED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml:10:7-41
+	android:allowBackup
+		ADDED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml:11:7-34
+	android:theme
+		ADDED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml:12:7-38
+	android:name
+		ADDED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml:8:7-38
+activity#com.myfirstipa.MainActivity
+ADDED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml:13:7-22:18
+	android:label
+		ADDED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml:15:9-41
+	android:windowSoftInputMode
+		ADDED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml:17:9-51
+	android:configChanges
+		ADDED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml:16:9-79
+	android:name
+		ADDED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml:14:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml:18:9-21:25
+action#android.intent.action.MAIN
+ADDED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml:19:13-65
+	android:name
+		ADDED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml:19:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml:20:13-73
+	android:name
+		ADDED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml:20:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml:23:7-84
+	android:name
+		ADDED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml:23:17-81
+uses-sdk
+INJECTED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml
+MERGED from [com.facebook.react:react-native:0.57.4] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/c4f910645bd7cc0dcd59e82d2c8b2e47/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.57.4] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/react-native-0.57.4.aar/c4f910645bd7cc0dcd59e82d2c8b2e47/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/51fd415c74c8860ac70d34cf28160c59/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/51fd415c74c8860ac70d34cf28160c59/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/da739550a496ff2698c800463e45f990/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/da739550a496ff2698c800463e45f990/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/d52a05edcf643a5f93893f61def323f2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/d52a05edcf643a5f93893f61def323f2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/4fa52472fc4ccbf7aee27ab46553aa2d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/4fa52472fc4ccbf7aee27ab46553aa2d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/403a2db7223bd40e0644820d2790d1f8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/403a2db7223bd40e0644820d2790d1f8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/30d08c5ab9cd7e53ff5b698f94b56222/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/30d08c5ab9cd7e53ff5b698f94b56222/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/b034890e5fcba685172c42d44b667b6a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/b034890e5fcba685172c42d44b667b6a/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/a25d1beea3ce7109c97c8a67ef0f5b7a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.10.0] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/a25d1beea3ce7109c97c8a67ef0f5b7a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/5fc72fb43c978d777745a8c6ae75294d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/5fc72fb43c978d777745a8c6ae75294d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/32f6a4c80ee1cfadba00dc8a00368c62/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/32f6a4c80ee1cfadba00dc8a00368c62/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/aff4beb21c3242b24bb96152b2d14a4e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/aff4beb21c3242b24bb96152b2d14a4e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/5f3b0a23cd654ac141a58e8dd1eb8198/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/5f3b0a23cd654ac141a58e8dd1eb8198/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/a36d1f0d3388eb5a8a043b93eadfc746/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/a36d1f0d3388eb5a8a043b93eadfc746/AndroidManifest.xml:7:5-9:41
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/455e409b96cc266f0994fba9d396e86e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/455e409b96cc266f0994fba9d396e86e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/7c699517e860008ab0add178a176e28e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/7c699517e860008ab0add178a176e28e/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/35db762366b25e91e4d778b5f8654746/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/35db762366b25e91e4d778b5f8654746/AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/5b9a3769d2e85a5ce21ebf8524e2cdbf/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/5b9a3769d2e85a5ce21ebf8524e2cdbf/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/04367a87010fa98a5990728e29200a52/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/chaowang/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/04367a87010fa98a5990728e29200a52/AndroidManifest.xml:20:5-44
+INJECTED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /Users/chaowang/Desktop/coding/MyFirstIpa/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE

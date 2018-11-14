@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>9</integer>
+	<key>logs</key>
+	<dict>
+		<key>5F9228BA-8BBF-4371-B2CF-40F6B9D5AB7B</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>5F9228BA-8BBF-4371-B2CF-40F6B9D5AB7B.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>E</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MyFirstIpa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MyFirstIpa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project MyFirstIpa with scheme MyFirstIpa and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>563353802.34039199</real>
+			<key>timeStoppedRecording</key>
+			<real>563353811.69184697</real>
+			<key>title</key>
+			<string>Building project MyFirstIpa with scheme MyFirstIpa and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>5F9228BA-8BBF-4371-B2CF-40F6B9D5AB7B</string>
+		</dict>
+		<key>F13EAD6D-D254-41FE-8D3C-887224AEBE46</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F13EAD6D-D254-41FE-8D3C-887224AEBE46.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>MyFirstIpa project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MyFirstIpa</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project MyFirstIpa with scheme MyFirstIpa and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>563099183.300475</real>
+			<key>timeStoppedRecording</key>
+			<real>563099192.32535601</real>
+			<key>title</key>
+			<string>Building project MyFirstIpa with scheme MyFirstIpa and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>F13EAD6D-D254-41FE-8D3C-887224AEBE46</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
