@@ -39,7 +39,23 @@
         }
     }
 ```
+注意：默认情况下 Android 是不支持 GIF 和 WebP 格式的。你需要在android/app/build.gradle文件中根据需要手动添加以下模块：
+```
+    dependencies {
+    // 如果你需要支持Android4.0(API level 14)之前的版本
+    compile 'com.facebook.fresco:animated-base-support:1.10.0'
 
+    // 如果你需要支持GIF动图
+    compile 'com.facebook.fresco:animated-gif:1.10.0'
+
+    // 如果你需要支持WebP格式，包括WebP动图
+    compile 'com.facebook.fresco:animated-webp:1.10.0'
+    compile 'com.facebook.fresco:webpsupport:1.10.0'
+
+    // 如果只需要支持WebP格式而不需要动图
+    compile 'com.facebook.fresco:webpsupport:1.10.0'
+    }
+```
 * TextInput：文本输入框。
 注意：onChangeText是从TextInput里取值这就是目前唯一的做法！也就是使用在onChangeText中用setState把用户的输入写入到state中，然后在需要取值的地方从this.state中取出值。
     例如：
