@@ -169,6 +169,28 @@
     hasTVPreferredFocus(ios独有):(Apple TV only) TV preferred focus (see documentation for the View component).
 
 * Picker: 在iOS和Android上调用各自原生的选择器控件。
+```
+    <Picker
+        selectedValue={this.state.language}
+        style={{ height: 50, width: 100 }}
+        onValueChange={(itemValue, itemIndex) => this.setState({language: itemValue})}
+    >
+        <Picker.Item label="Java" value="java" />
+        <Picker.Item label="JavaScript" value="js" />
+    </Picker>
+```
+    onValueChange:某一项被选中时执行此回调。调用时带有如下参数：
+>       itemValue: 被选中项的value属性
+>       itemPosition: 被选中项在picker中的索引位置
+
+    selectedValue: 默认选中的值。可以是字符串或整数
+    enabled(Android): 如果设为false，则会禁用此选择器。
+    mode(Android): 在Android上，可以指定在用户点击选择器时，以怎样的形式呈现选项：
+>       'dialog': 显示一个模态对话框。默认选项。
+>       'dropdown': 以选择器所在位置为锚点展开一个下拉框。
+
+    prompt(Android): 设置选择器的提示字符串。在Android的对话框模式中用作对话框的标题。
+    itemStyle（iOS）：指定应用在每项标签上的样式。
 
 * Slider: 滑动数值选择器。
 
