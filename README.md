@@ -195,11 +195,20 @@
 ##### Slider: 滑动数值选择器。
 
 ##### Switch: 开关控件。
-
-
+注意这是一个“受控组件”（controlled component）。你必须使用onValueChange回调来更新value属性以响应用户的操作。如果不更新value属性，组件只会按一开始给定的value值来渲染且保持不变，看上去就像完全点不动。
+* trackColor: 开启状态时的背景颜色。
+* ios_backgroundColor: 在iOS上，自定义背景颜色。当开关值为假或开关被禁用（并且开关是半透明的）时，可以看到此背景颜色。
+* onValueChange: 当值改变的时候调用此回调函数，参数为新的值。
+* thumbColor: 开关上圆形按钮的背景颜色。在iOS上设置此颜色会丢失按钮的投影。
+* tintColor: 关闭状态时的边框颜色(iOS)或背景颜色(Android)。
+* value: 表示此开关是否打开。默认为false（关闭状态）。
 
 
 #### 列表视图
+##### FlatList:高性能的滚动列表组件。
+
+
+##### SectionList:类似FlatList，但是多了分组显示。
 
 
 #### iOS 独有的组件和 API
