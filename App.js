@@ -24,9 +24,11 @@ export default class moves extends Component {
     var movie = MOCKED_MOVIES_DATA[0];
     return (
       <View style={styles.container}>
-        <Text>{movie.title}</Text>
-        <Text>{movie.year}</Text>
         <Image style={styles.thumbnail} source={{uri: movie.posters.thumbnail}} />
+        <View style={styles.rightContainer}>
+          <Text style={styles.title}>{movie.title}</Text>
+          <Text style={styles.year}>{movie.year}</Text>
+        </View>
       </View>
     );
   }
@@ -35,12 +37,26 @@ export default class moves extends Component {
 var styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-    backgroundColor: "#F5FCFF"
+    flexDirection: 'row', // 横向
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#F5FCFF',
   },
   thumbnail: {
+    // 图片
     width: 53,
     height: 81
-  }
+  },
+  rightContainer: {
+    // 横向除了如片，其他全部空间
+    flex: 1,
+  },
+  title: {
+    fontSize: 20,
+    marginBottom: 8,
+    textAlign: 'center',
+  },
+  year: {
+    textAlign: 'center',
+  },
 });
