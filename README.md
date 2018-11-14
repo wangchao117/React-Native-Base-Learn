@@ -238,6 +238,23 @@
 
 
 ### iOS 独有的组件和 API
+#### ActionSheetIOS：从设备底部弹出一个显示一个ActionSheet弹出框选项菜单或分享菜单。
+
+#### AlertIOS：弹出一个提示对话框，还可以带有输入框。
+
+#### DatePickerIOS：显示一个日期/时间选择器。
+
+#### ImagePickerIOS：插入图片。
+
+#### NavigatorIOS：UINavigationController的封装，用于实现页面的导航跳转。
+
+#### ProgressViewIOS：渲染一个UIProgressView进度条。
+
+#### PushNotificationIOS：管理推送通知，包括权限处理和应用角标数字。
+
+#### SegmentedControlIOS：渲染一个UISegmentedControl顶部选项卡布局
+
+#### TabBarIOS：渲染一个UITabViewController底部选项卡布局。需要和TabBarIOS.Item搭配使用。
 
 
 
