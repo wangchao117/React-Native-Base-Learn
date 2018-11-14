@@ -12,7 +12,34 @@
 * View：搭建用户界面的最基础组件。
     注：View 的设计初衷是和 StyleSheet 搭配使用，这样可以使代码更清晰并且获得更高的性能。尽管内联样式也同样可以使用。
 * Text：显示文本内容的组件。
+
 * Image：显示图片内容的组件。
+下面的例子分别演示了如何显示从本地缓存、网络甚至是以'data:'的 base64 uri 形式提供的图片。
+```
+    import React, { Component } from 'react';
+    import { AppRegistry, View, Image } from 'react-native';
+
+    export default class DisplayAnImage extends Component {
+        render() {
+            return (
+                <View>
+                    <Image
+                        source={require('/react-native/img/favicon.png')}
+                    />
+                    <Image
+                        style={{width: 50, height: 50}}
+                        source={{uri: 'https://facebook.github.io/react-native/docs/assets/favicon.png'}}
+                    />
+                    <Image
+                        style={{width: 66, height: 58}}
+                        source={{uri: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADMAAAAzCAYAAAA6oTAqAAAAEXRFWHRTb2Z0d2FyZQBwbmdjcnVzaEB1SfMAAABQSURBVGje7dSxCQBACARB+2/ab8BEeQNhFi6WSYzYLYudDQYGBgYGBgYGBgYGBgYGBgZmcvDqYGBgmhivGQYGBgYGBgYGBgYGBgYGBgbmQw+P/eMrC5UTVAAAAABJRU5ErkJggg=='}}
+                    />
+                </View>
+            );
+        }
+    }
+```
+
 * TextInput：文本输入框。
 注意：onChangeText是从TextInput里取值这就是目前唯一的做法！也就是使用在onChangeText中用setState把用户的输入写入到state中，然后在需要取值的地方从this.state中取出值。
     例如：
@@ -58,30 +85,30 @@
     }
 
     export default class UselessTextInputMultiline extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-        text: 'Useless Multiline Placeholder',
-        };
-    }
+        constructor(props) {
+            super(props);
+            this.state = {
+                text: 'Useless Multiline Placeholder',
+            };
+        }
 
-    // 你可以试着输入一种颜色，比如red，那么这个red就会作用到View的背景色样式上
-    render() {
-        return (
-        <View style={{
-        backgroundColor: this.state.text,
-        borderBottomColor: '#000000',
-        borderBottomWidth: 1 }}
-        >
-        <UselessTextInput
-            multiline = {true}
-            numberOfLines = {4}
-            onChangeText={(text) => this.setState({text})}
-            value={this.state.text}
-        />
-        </View>
-        );
-    }
+        // 你可以试着输入一种颜色，比如red，那么这个red就会作用到View的背景色样式上
+        render() {
+            return (
+                <View style={{
+                    backgroundColor: this.state.text,
+                    borderBottomColor: '#000000',
+                    borderBottomWidth: 1 }}
+                >
+                    <UselessTextInput
+                        multiline = {true}
+                        numberOfLines = {4}
+                        onChangeText={(text) => this.setState({text})}
+                        value={this.state.text}
+                    />
+                </View>
+            );
+        }
     }
 ```
 >   TextInput在安卓上默认有一个底边框，同时会有一些padding。如果要想使其看起来和iOS上尽量一致，
@@ -91,7 +118,9 @@
     要解决这一问题你需要在AndroidManifest.xml中明确指定合适的windowSoftInputMode( https://developer.android.com/guide/topics/manifest/activity-element.html )值，或是自己监听事件来处理布局变化。
 
 * ScrollView：可滚动的容器视图。
+
 * StyleSheet：提供类似CSS样式表的样式抽象层。
+
 #### 交互组件
 
 
