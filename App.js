@@ -53,6 +53,7 @@ export default class moves extends Component {
 
     return (
       <FlatList
+        keyExtractor={(index) => index.toString()}
         data={this.state.data}
         renderItem={this.renderMovie}
         style={styles.list}
