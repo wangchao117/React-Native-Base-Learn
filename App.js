@@ -10,7 +10,7 @@ import {
   TouchableNativeFeedback, 
   TouchableWithoutFeedback,
   Platform,
-  Canvas,
+  ScrollView,
 } from 'react-native';
 
 export default class FlexDimensionsBasics extends Component {
@@ -20,7 +20,7 @@ export default class FlexDimensionsBasics extends Component {
   }
   render() {
     return (
-      <View >
+      <ScrollView >
         <TextInput
           style={{ height: 40 }}
           placeholder="Type here to translate!"
@@ -62,17 +62,18 @@ export default class FlexDimensionsBasics extends Component {
         </TouchableWithoutFeedback>
         
         <TouchableHighlight onPress={this.clickBtn} onLongPress={this._onLongPressButton} underlayColor="white" underlayColor="white">
-          <View style={{height: 40,backgroundColor:'#e2e2e2'}}>
+          <View style={{height: 1440,backgroundColor:'#e2e2e2'}}>
             <Text>TouchableHighlight</Text>
           </View>
         </TouchableHighlight>
 
         
+        
         {/* 滚动 */}
         
 
 
-      </View>
+      </ScrollView>
     );
   }
   clickBtn() {
