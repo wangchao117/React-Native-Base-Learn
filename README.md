@@ -259,7 +259,49 @@
 
 
 ### Android 独有的组件和 API
+#### BackHandler:监听并处理设备上的返回按钮。
+
+#### DatePickerAndroid:打开日期选择器。
+
+#### DrawerLayoutAndroid:渲染一个DrawerLayout抽屉布局。
+
+#### PermissionsAndroid:对Android 6.0引入的权限模型的封装。
+
+#### ProgressBarAndroid:渲染一个ProgressBar进度条。
+
+#### TimePickerAndroid:打开时间选择器。
+
+#### ToastAndroid:弹出一个Toast提示框。
+
+#### ToolbarAndroid:在顶部渲染一个Toolbar工具栏。
+
+#### ViewPagerAndroid:可左右翻页滑动的视图容器。
 
 
 
 ### 其他
+#### ActivityIndicator:显示一个圆形的正在加载的符号。
+
+#### Alert;弹出一个提示框，显示指定的标题和信息。
+
+#### Animated:易于使用和维护的动画库，可生成流畅而强大的动画。
+
+#### CameraRoll:访问本地相册。
+
+#### Clipboard:读写剪贴板内容。
+
+#### Dimensions:获取设备尺寸。
+
+#### KeyboardAvoidingView:一种视图容器，可以随键盘升起而自动移动。
+
+#### Linking:提供了一个通用的接口来调起其他应用或被其他应用调起。
+
+#### Modal:一种简单的覆盖全屏的模态视图。
+
+#### PixelRatio:可以获取设备的像素密度。
+
+#### RefreshControl:此组件用在ScrollView及其衍生组件的内部，用于添加下拉刷新的功能。
+
+#### StatusBar:用于控制应用顶部状态栏样式的组件。
+
+#### WebView:在原生视图中显示Web内容的组件。
