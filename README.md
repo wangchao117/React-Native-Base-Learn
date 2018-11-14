@@ -7,13 +7,13 @@
 * FlatList列表必须要加keyExtractor参数，不然会报黄色警告：keyExtractor={(item, index) => index.toString()}
 
 
-### 组件系统
-#### 基础组件
-##### View：搭建用户界面的最基础组件。
+## 组件系统
+### 基础组件
+#### View：搭建用户界面的最基础组件。
     注：View 的设计初衷是和 StyleSheet 搭配使用，这样可以使代码更清晰并且获得更高的性能。尽管内联样式也同样可以使用。
-##### Text：显示文本内容的组件。
+#### Text：显示文本内容的组件。
 
-##### Image：显示图片内容的组件。
+#### Image：显示图片内容的组件。
 下面的例子分别演示了如何显示从本地缓存、网络甚至是以'data:'的 base64 uri 形式提供的图片。
 ```
     import React, { Component } from 'react';
@@ -56,7 +56,7 @@
     compile 'com.facebook.fresco:webpsupport:1.10.0'
     }
 ```
-##### TextInput：文本输入框。
+#### TextInput：文本输入框。
 注意：onChangeText是从TextInput里取值这就是目前唯一的做法！也就是使用在onChangeText中用setState把用户的输入写入到state中，然后在需要取值的地方从this.state中取出值。
     例如：
 ```
@@ -133,7 +133,7 @@
 >   又又，在安卓上长按选择文本会导致windowSoftInputMode设置变为adjustResize，这样可能导致绝对定位的元素被键盘给顶起来。
     要解决这一问题你需要在AndroidManifest.xml中明确指定合适的windowSoftInputMode( https://developer.android.com/guide/topics/manifest/activity-element.html )值，或是自己监听事件来处理布局变化。
 
-##### ScrollView：可滚动的容器视图。
+#### ScrollView：可滚动的容器视图。
     ScrollView必须有一个确定的高度才能正常工作，因为它实际上所做的就是将一系列不确定高度的子组件装进一个确定高度的容器（通过滚动操作）。要给一个ScrollView确定一个高度的话，要么直接给它设置高度（不建议），要么确定所有的父容器都有确定的高度。
     一般来说我们会给ScrollView设置flex: 1以使其自动填充父容器的空余空间，但前提条件是所有的父容器本身也设置了flex或者指定了高度，否则就会导致无法正常滚动，你可以使用元素查看器来查找问题的原因。
 
@@ -143,10 +143,10 @@
 
     此外FlatList还可以方便地渲染行间分隔线，支持多列布局，无限滚动加载等等。
 
-##### StyleSheet：提供类似CSS样式表的样式抽象层。
+#### StyleSheet：提供类似CSS样式表的样式抽象层。
 
-#### 交互控件
-##### Button: 一个简单的跨平台的按钮控件。
+### 交互控件
+#### Button: 一个简单的跨平台的按钮控件。
     这个组件的样式是固定的。所以如果它的外观并不怎么搭配你的设计，那你需要使用TouchableOpacity或是TouchableNativeFeedback组件来定制自己所需要的按钮。
     示例：
 ```
@@ -168,7 +168,7 @@
 *   testID:用来在端到端测试中定位此视图。
 *   hasTVPreferredFocus(ios独有):(Apple TV only) TV preferred focus (see documentation for the View component).
 
-##### Picker: 在iOS和Android上调用各自原生的选择器控件。
+#### Picker: 在iOS和Android上调用各自原生的选择器控件。
 ```
     <Picker
         selectedValue={this.state.language}
@@ -192,9 +192,9 @@
 *    prompt(Android): 设置选择器的提示字符串。在Android的对话框模式中用作对话框的标题。
 *   itemStyle（iOS）：指定应用在每项标签上的样式。
 
-##### Slider: 滑动数值选择器。
+#### Slider: 滑动数值选择器。
 
-##### Switch: 开关控件。
+#### Switch: 开关控件。
 注意这是一个“受控组件”（controlled component）。你必须使用onValueChange回调来更新value属性以响应用户的操作。如果不更新value属性，组件只会按一开始给定的value值来渲染且保持不变，看上去就像完全点不动。
 * trackColor: 开启状态时的背景颜色。
 * ios_backgroundColor: 在iOS上，自定义背景颜色。当开关值为假或开关被禁用（并且开关是半透明的）时，可以看到此背景颜色。
@@ -204,8 +204,8 @@
 * value: 表示此开关是否打开。默认为false（关闭状态）。
 
 
-#### 列表视图
-##### FlatList:高性能的滚动列表组件。
+### 列表视图
+#### FlatList:高性能的滚动列表组件。
 *   完全跨平台。
 *   支持水平布局模式。
 *   行组件显示或隐藏时可配置回调事件。
@@ -222,13 +222,13 @@
     />
 ```
 
-##### SectionList:类似FlatList，但是多了分组显示。
+#### SectionList:类似FlatList，但是多了分组显示。
 
 
-#### iOS 独有的组件和 API
+### iOS 独有的组件和 API
 
 
-#### Android 独有的组件和 API
+### Android 独有的组件和 API
 
 
-#### 其他
+### 其他
