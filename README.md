@@ -146,6 +146,35 @@
 * StyleSheet：提供类似CSS样式表的样式抽象层。
 
 #### 交互控件
+* Button: 一个简单的跨平台的按钮控件。
+    这个组件的样式是固定的。所以如果它的外观并不怎么搭配你的设计，那你需要使用TouchableOpacity或是TouchableNativeFeedback组件来定制自己所需要的按钮。
+    示例：
+```
+    import { Button } from 'react-native';
+    ...
+
+    <Button
+        onPress={onPressLearnMore}
+        title="Learn More"
+        color="#841584"
+        accessibilityLabel="Learn more about this purple button"
+    />
+```
+    onPress:用户点击此按钮时所调用的处理函数
+    title:按钮内显示的文本
+    accessibilityLabel:用于给残障人士显示的文本（比如读屏应用可能会读取这一内容）
+    color:文本的颜色(iOS)，或是按钮的背景色(Android)
+    disabled:设置为 true 时此按钮将不可点击。
+    testID:用来在端到端测试中定位此视图。
+    hasTVPreferredFocus(ios独有):(Apple TV only) TV preferred focus (see documentation for the View component).
+
+* Picker: 在iOS和Android上调用各自原生的选择器控件。
+
+* Slider: 滑动数值选择器。
+
+* Switch: 开关控件。
+
+
 
 
 #### 列表视图
