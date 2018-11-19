@@ -346,9 +346,27 @@ const Component = Platform.select({
   ios: () => require("ComponentIOS"),
   android: () => require("ComponentAndroid")
 })();
-
 <Component />;
 ```
+* 检测 Android 版本
+在 Android 上，Version属性是一个数字，表示 Android 的 api level：
+```
+    import { Platform } from "react-native";
+    if (Platform.Version === 25) {
+    console.log("Running on Nougat!");
+    }
+```
+* 检测 iOS 版本
+在 iOS 上，Version属性是-[UIDevice systemVersion]的返回值，具体形式为一个表示当前系统版本的字符串。比如可能是"10.3"。
+```
+    import { Platform } from "react-native";
+    const majorVersionIOS = parseInt(Platform.Version, 10);
+    if (majorVersionIOS <= 9) {
+    console.log("Work around a change in behavior");
+    }
+```
+
+
 
 
 
