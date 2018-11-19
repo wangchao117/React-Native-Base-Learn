@@ -311,18 +311,45 @@
 
 
 
-
-
-
 ## 特定平台代码
 ### 使用Platform模块
 * React Native 提供了一个检测当前运行平台的模块。如果组件只有一小部分代码需要依据平台定制，那么这个模块就可以派上用场。
+> Platform.OS在 iOS 上会返回ios，而在 Android 设备或模拟器上则会返回android
 ```
     import { Platform, StyleSheet } from "react-native";
     const styles = StyleSheet.create({
         height: Platform.OS === "ios" ? 200 : 100
     });
 ```
+
+* 还有个实用的方法是 Platform.select()，它可以以 Platform.OS 为 key，从传入的对象中返回对应平台的值，见下面的示例：
+```
+import { Platform, StyleSheet } from "react-native";
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    ...Platform.select({
+      ios: {
+        backgroundColor: "red"
+      },
+      android: {
+        backgroundColor: "blue"
+      }
+    })
+  }
+});
+```
+上面的代码会根据平台的不同返回不同的 container 样式 —— iOS 上背景色为红色，而 android 为蓝色。
+这一方法可以接受任何合法类型的参数，因此你也可以直接用它针对不同平台返回不同的组件，像下面这样：
+```
+const Component = Platform.select({
+  ios: () => require("ComponentIOS"),
+  android: () => require("ComponentAndroid")
+})();
+
+<Component />;
+```
+
 
 
 
