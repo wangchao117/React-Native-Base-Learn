@@ -158,7 +158,7 @@ class FadeInView extends React.Component {
       <Animated.View                 // 使用专门的可动画化的View组件
         style={{
           ...this.props.style,
-          marginLeft: fadeAnim,         // 将透明度指定为动画变量值
+          opacity: fadeAnim,         // 将透明度指定为动画变量值
         }}
       >
         {this.props.children}
